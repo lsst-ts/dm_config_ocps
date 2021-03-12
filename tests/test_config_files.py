@@ -26,10 +26,10 @@ from lsst.ts import salobj
 
 
 class ConfigTestCase(salobj.BaseConfigTestCase, unittest.TestCase):
-    def setUp(self):
-        self.config_package_root = pathlib.Path(__file__).parents[1]
-
     def test_OCPS(self):
-        self.check_standard_config_files(sal_name="OCPS",
-                                         module_name="lsst.dm.OCPS",
-                                         config_package_root=self.config_package_root)
+        self.check_standard_config_files(
+            sal_name="OCPS",
+            module_name="lsst.dm.OCPS",
+            schema_name="CONFIG_SCHEMA",
+            config_package_root=pathlib.Path(__file__).parents[1],
+        )
