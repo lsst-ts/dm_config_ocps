@@ -1,0 +1,3 @@
+default: LATISS.yaml
+LATISS: LATISS.yaml
+LSSTComCam: LSSTComCam.yaml
