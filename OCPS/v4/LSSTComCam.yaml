@@ -1,0 +1,3 @@
+instance: LSSTComCam
+butler: /repo/LSSTComCam
+input_collection: LSSTComCam/raw/all

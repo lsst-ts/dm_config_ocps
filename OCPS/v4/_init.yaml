@@ -1,0 +1,3 @@
+poll_interval: 0.5
+output_glob: "*"
+url: http://uws-server/api/v1
