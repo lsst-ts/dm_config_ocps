@@ -4,12 +4,12 @@ instances:
     poll_interval: 0.5
     output_glob: "*"
     url: http://uws-server/api/v1
-    butler: s3://butler@rubinobs-butler-latiss/butler.yaml
+    butler: /repo/LATISS
     input_collection: LATISS/raw/all
   - sal_index: 2
     instance: LSSTComCam
     poll_interval: 0.5
     output_glob: "*"
     url: http://uws-server/api/v1
-    butler: s3://butler@rubinobs-butler-comcam/butler.yaml
+    butler: /repo/LSSTComCam
     input_collection: LSSTComCam/raw/all
