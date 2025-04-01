@@ -13,3 +13,10 @@ instances:
     url: http://uws-server/api/v1
     butler: LSSTComCam
     input_collection: LSSTComCam/raw/all
+  - sal_index: 3
+    instance: LSSTCam
+    poll_interval: 0.5
+    output_glob: "*"
+    url: http://uws-server/api/v1
+    butler: LSSTCam
+    input_collection: LSSTCam/raw/all
